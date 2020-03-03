@@ -4,4 +4,7 @@
     <string name="title_search">Search</string>
     <string name="title_setting">Setting</string>
     <string name="title_favorite">Favorite</string>
+    <string name="title_home">Find Recipes by Ingredient</string>
+    <string name="btn_select">SELECT IMAGE</string>
+    <string name="btn_done">Done</string>
 </resources>

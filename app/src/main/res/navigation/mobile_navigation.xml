@@ -29,11 +29,6 @@
         android:id="@+id/recipesFilterFragment"
         android:name="com.example.ra_recipes.ui.recipesFilter.RecipesFilterFragment"
         android:label="RecipesFilterFragment"
-        tools:layout="@layout/fragment_recipes_filter">
-        <argument
-            android:name="type"
-            app:argType="string"
-            android:defaultValue="all" />
-    </fragment>
+        tools:layout="@layout/fragment_recipes_filter"/>
 
 </navigation>
