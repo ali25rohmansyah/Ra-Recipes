@@ -1,4 +1,4 @@
-package com.example.ra_recipes.ui.favorite
+package com.example.ra_recipes.view.ui.favorite
 
 import androidx.lifecycle.ViewModel
 

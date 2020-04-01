@@ -1,4 +1,4 @@
-package com.example.ra_recipes.ui.notifications
+package com.example.ra_recipes.view.ui.notifications
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

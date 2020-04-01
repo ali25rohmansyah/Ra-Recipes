@@ -1,4 +1,4 @@
-package com.example.ra_recipes.ui.setting
+package com.example.ra_recipes.view.ui.setting
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_search">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.example.ra_recipes.ui.search.SearchFragment"
+        android:id="@+id/navigation_search"
+        android:name="com.example.ra_recipes.view.ui.search.SearchFragment"
         android:label="@string/title_search"
         tools:layout="@layout/fragment_search" >
         <action
@@ -17,18 +17,22 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.example.ra_recipes.ui.setting.SettingFragment"
+        android:name="com.example.ra_recipes.view.ui.setting.SettingFragment"
         android:label="@string/title_setting"
         tools:layout="@layout/fragment_setting" />
     <fragment
         android:id="@+id/navigation_favorite"
-        android:name="com.example.ra_recipes.ui.favorite.FavoriteFragment"
+        android:name="com.example.ra_recipes.view.ui.favorite.FavoriteFragment"
         android:label="@string/title_favorite"
         tools:layout="@layout/fragment_favorite"/>
     <fragment
         android:id="@+id/recipesFilterFragment"
-        android:name="com.example.ra_recipes.ui.recipesFilter.RecipesFilterFragment"
+        android:name="com.example.ra_recipes.view.ui.recipesFilter.RecipesFilterFragment"
         android:label="RecipesFilterFragment"
-        tools:layout="@layout/fragment_recipes_filter"/>
+        tools:layout="@layout/fragment_recipes_filter">
+        <argument
+            android:name="label"
+            app:argType="string" />
+    </fragment>
 
 </navigation>

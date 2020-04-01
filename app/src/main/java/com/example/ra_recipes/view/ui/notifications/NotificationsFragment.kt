@@ -1,4 +1,4 @@
-package com.example.ra_recipes.ui.setting
+package com.example.ra_recipes.view.ui.notifications
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.ra_recipes.R
 
-class SettingFragment : Fragment() {
+class NotificationsFragment : Fragment() {
 
-    private lateinit var settingViewModel: SettingViewModel
+    private lateinit var notificationsViewModel: NotificationsViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        settingViewModel =
-            ViewModelProviders.of(this).get(SettingViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_setting, container, false)
-        val textView: TextView = root.findViewById(R.id.text_dashboard)
-        settingViewModel.text.observe(this, Observer {
+        notificationsViewModel =
+            ViewModelProviders.of(this).get(NotificationsViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_notifications, container, false)
+        val textView: TextView = root.findViewById(R.id.text_notifications)
+        notificationsViewModel.text.observe(this, Observer {
             textView.text = it
         })
         return root

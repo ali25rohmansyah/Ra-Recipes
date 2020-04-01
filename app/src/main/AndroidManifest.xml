@@ -29,8 +29,8 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <activity android:name=".ui.detailRecipes.DetailRecipesActivity" />
-        <activity android:name=".onBoarding.OnboardingOneActivity" />
+        <activity android:name=".view.ui.detailRecipes.DetailRecipesActivity" />
+        <activity android:name=".view.ui.onBoarding.OnboardingOneActivity" />
         <activity
             android:name=".BaseActivity"
             android:label="@string/title_activity_base" />

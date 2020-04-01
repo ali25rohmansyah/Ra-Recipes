@@ -6,7 +6,7 @@
     <data>
         <variable
             name="searchViewModel"
-            type="com.example.ra_recipes.ui.search.SearchViewModel" />
+            type="com.example.ra_recipes.view.ui.search.SearchViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -33,7 +33,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="69dp"
+                    android:layout_marginTop="85dp"
                     android:text="@string/title_home"
                     android:textColor="@color/mediumGrey2"
                     android:textSize="20sp"
